@@ -1,0 +1,8 @@
+2021-06-03 22:38:31,688 - DEBUG - logging_module.py - root - 日志信息：debug
+2021-06-03 22:38:31,688 - INFO - logging_module.py - root - 日志信息：info
+2021-06-03 22:38:31,688 - ERROR - logging_module.py - root - 日志信息：error
+2021-06-03 22:38:31,688 - CRITICAL - logging_module.py - root - 日志信息：critical
+2021-06-03 22:38:53,326 - DEBUG - logging_module.py - root - 日志信息：debug
+2021-06-03 22:38:53,326 - INFO - logging_module.py - root - 日志信息：info
+2021-06-03 22:38:53,326 - ERROR - logging_module.py - root - 日志信息：error
+2021-06-03 22:38:53,326 - CRITICAL - logging_module.py - root - 日志信息：critical

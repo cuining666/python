@@ -1,0 +1,2 @@
+account:cnstar,123456
+weixin:wx1234,123456
