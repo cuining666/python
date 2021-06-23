@@ -1,6 +1,6 @@
 # __author: ioi
 # date: 2021/6/7
-import extends
+from classes import extends
 
 
 class Sonn(extends.Father):
