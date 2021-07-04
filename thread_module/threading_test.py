@@ -38,4 +38,4 @@ if __name__ == '__main__':
     print(threading.current_thread())
     # 运行中的线程数
     print(threading.active_count())
-    print('......main thread end......')
+    print('......main thread_module end......')
