@@ -2,6 +2,7 @@
 # date: 2021/6/3
 # 系统操作
 import os
+import shutil
 
 # os.getcwd()  # 获取当前工作目录，即当前python脚本工作的目录路径
 # os.chdir("dirname")  # 改变当前脚本工作目录；相当于shell下cd
@@ -32,3 +33,13 @@ import os
 # os.path.join(path1[, path2[, ...]])  # 将多个路径组合后返回，第一个绝对路径之前的参数将被忽略
 # os.path.getatime("test.txt")  # 返回path所指向的文件或者目录的最后存取时间
 # os.path.getmtime("test.txt")  # 返回path所指向的文件或者目录的最后修改时间
+
+path = "G:/娱乐/影视/电影/"
+listDir = os.listdir(path)
+
+for dir in listDir:
+    if os.path.isdir("".join([path, dir])):
+        continue
+    dirName = dir.split(".")[0]
+    os.mkdir("".join([path, dirName]))
+    shutil.move("".join([path, dir]), "".join([path, dirName]))

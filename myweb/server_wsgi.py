@@ -4,11 +4,13 @@ from wsgiref.simple_server import make_server
 import time
 
 
+# Urls
 def routers():
     result = (('/now', now_page),)
     return result
 
 
+# Controller
 def now_page(request):
     f = open('index.html', 'rb')
     current_time = time.ctime(time.time())
@@ -17,6 +19,7 @@ def now_page(request):
     return [data.encode('utf8')]
 
 
+# Server
 def application(env, res):
     """
     env封装了所有请求信息
