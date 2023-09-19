@@ -2,6 +2,7 @@
 # date: 2021/6/12
 # 单例模式
 class Singleton:
+    # 私有属性: 最前面是__
     __singleton = None
 
     @classmethod

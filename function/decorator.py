@@ -74,7 +74,7 @@ def summ(*a, **b):
     print(sum)
 
 
-# 只对plus函数进行日志功能
+# 只对plus函数进行日志功能。plus = logger('true')(plus),
 @logger('true')
 def plus(*args):
     sum = 0

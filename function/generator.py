@@ -1,6 +1,6 @@
 # __author: ioi
 # date: 2021/6/2
-# 生成器
+# 生成器 - 一个可迭代对象
 import sys
 
 

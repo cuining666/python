@@ -69,7 +69,8 @@ current_layer = menu
 parent_layers = []
 while True:
     for key in current_layer:
-        print(key)
+        # Python 3.6以后，格式化字符串还有更为简洁的书写方式，就是在字符串前加上字母f，我们可以使用下面的语法糖来简化上面的代码
+        print(f'{key}:{current_layer[key]}')
     choice = input(">>>").strip()
     if len(choice) == 0: continue
     if choice in current_layer:
